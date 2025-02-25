@@ -29,7 +29,7 @@ Route::prefix('category') -> group(function(){
 
 Route::get('/user/{id}/nama/{nama}', [UserController::class, 'user']);
 
-Route::get('/penjualan', [SalesController::class, 'index']);
+Route::get('/penjualan', [SalesController::class, 'penjualan']);
 
 
 
